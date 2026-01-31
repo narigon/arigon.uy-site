@@ -8,8 +8,8 @@ const Hero: React.FC = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
-          Designing the future of <br />
-          <span className="text-accent italic">digital experiences</span>
+          Crafting the next <br />
+          <span className="text-accent italic">digital masterpiece</span>
         </h1>
 
         <div className="mt-12 relative inline-block">

@@ -1,10 +1,10 @@
 import React from 'react';
 
 const projects = [
-  { id: 1, title: 'Project One', category: 'Web Design' },
-  { id: 2, title: 'Project Two', category: 'App Development' },
-  { id: 3, title: 'Project Three', category: 'Brand Identity' },
-  { id: 4, title: 'Project Four', category: 'UI/UX Design' },
+  { id: 1, title: 'Nexus Dashboard', category: 'SaaS / Web App' },
+  { id: 2, title: 'Aura Mobile', category: 'Fintech / App' },
+  { id: 3, title: 'Ether Branding', category: 'Creative / Identity' },
+  { id: 4, title: 'Vortex UI Kit', category: 'Design System' },
 ];
 
 const Work: React.FC = () => {
@@ -19,8 +19,8 @@ const Work: React.FC = () => {
                 <span className="text-accent text-sm font-semibold mb-2">{project.category}</span>
                 <h3 className="text-2xl font-bold text-white">{project.title}</h3>
               </div>
-              <div className="w-full h-full flex items-center justify-center text-white/5 text-4xl font-bold select-none group-hover:scale-110 transition-transform">
-                PROJECT {project.id}
+              <div className="w-full h-full flex items-center justify-center text-white/5 text-4xl font-bold select-none group-hover:scale-110 transition-transform text-center px-4">
+                {project.title.toUpperCase()}
               </div>
             </div>
           ))}
