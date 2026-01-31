@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar: React.FC = () => {
   return (
     <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-white/10 px-6 py-4 flex items-center justify-between">
-      <div className="text-xl font-bold tracking-tighter">LOGO</div>
+      <div className="text-xl font-bold tracking-tighter uppercase">Nicolas Arigon</div>
 
       <div className="hidden md:flex items-center space-x-8">
         <a href="#work" className="text-sm font-medium hover:text-accent transition-colors">Work</a>
