@@ -11,9 +11,9 @@ const Navbar: React.FC = () => {
         <a href="#services" className="text-sm font-medium hover:text-accent transition-colors">Services</a>
       </div>
 
-      <button className="bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all">
+      <a href="#contact" className="bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all">
         Let's Talk
-      </button>
+      </a>
     </nav>
   );
 };

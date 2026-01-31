@@ -6,7 +6,7 @@ test('verify resume content', async ({ page }) => {
 
   // Verify Name
   await expect(page.locator('nav')).toContainText('Nicolas Arigon');
-  await expect(page.locator('h1')).toContainText('Nicolas Arigon');
+  await expect(page.locator('section').first()).toContainText('Nicolas Arigon');
 
   // Verify Hero Headline
   await expect(page.locator('h1')).toContainText('Engineering Leader');
@@ -19,9 +19,9 @@ test('verify resume content', async ({ page }) => {
 
   // Verify Work projects
   const workSection = page.locator('#work');
-  await expect(workSection).toContainText('Asana Compliance ETL');
-  await expect(workSection).toContainText('Cartier AR Visualization');
-  await expect(workSection).toContainText('Samsung SmartThings');
+  await expect(workSection).toContainText('Compliance ETL Platform');
+  await expect(workSection).toContainText('AR Visualization App');
+  await expect(workSection).toContainText('IoT Ecosystem Platform');
 
   // Verify Services
   const servicesSection = page.locator('#services');
