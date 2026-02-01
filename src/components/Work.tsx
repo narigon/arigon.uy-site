@@ -1,10 +1,10 @@
 import React from 'react';
 
 const projects = [
-  { id: 1, title: 'Nexus Dashboard', category: 'SaaS / Web App' },
-  { id: 2, title: 'Aura Mobile', category: 'Fintech / App' },
-  { id: 3, title: 'Ether Branding', category: 'Creative / Identity' },
-  { id: 4, title: 'Vortex UI Kit', category: 'Design System' },
+  { id: 1, title: 'Compliance ETL Platform', category: 'DevOps / AWS / Terraform' },
+  { id: 2, title: 'AR Visualization App', category: 'Solution Architect / ML' },
+  { id: 3, title: 'Infrastructure Migration', category: 'Full-Stack / E-commerce' },
+  { id: 4, title: 'IoT Ecosystem Platform', category: 'Platform Engineering' },
 ];
 
 const Work: React.FC = () => {

@@ -7,11 +7,11 @@ const About: React.FC = () => {
         <div className="flex-1 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">About Me</h2>
           <p className="text-zinc-400 text-lg leading-relaxed">
-            I am a passionate designer dedicated to creating digital experiences that are not only visually stunning but also highly functional and user-centric.
-            With over 5 years of experience in the industry, I have worked with brands ranging from startups to Fortune 500 companies.
+            I am a results-driven engineering leader with 15+ years of experience spanning software development, cloud architecture, and full software development lifecycle management.
+            Adept at overseeing complex projects and services, from scalable web solutions to advanced cloud systems.
           </p>
           <p className="text-zinc-400 text-lg leading-relaxed">
-            My approach combines strategic thinking with creative excellence, ensuring that every project I undertake delivers measurable results and a lasting impact.
+            Passionate about driving innovation, building high-performance teams, and advancing security practices to protect critical assets and ensure compliance.
           </p>
         </div>
         <div className="flex-1">

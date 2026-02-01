@@ -5,16 +5,16 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-background py-12 px-6 border-t border-white/5">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
-        <div className="text-xl font-bold tracking-tighter">LOGO</div>
+        <div className="text-xl font-bold tracking-tighter uppercase">Nicolas Arigon</div>
 
         <div className="flex items-center space-x-6">
           <a href="#" className="text-zinc-400 hover:text-white transition-colors">
             <Twitter className="w-5 h-5" />
           </a>
-          <a href="#" className="text-zinc-400 hover:text-white transition-colors">
+          <a href="https://github.com" className="text-zinc-400 hover:text-white transition-colors">
             <Github className="w-5 h-5" />
           </a>
-          <a href="#" className="text-zinc-400 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/nicol%C3%A1s-arig%C3%B3n-perdomo-7377b125/" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
           <a href="#" className="text-zinc-400 hover:text-white transition-colors">
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
         </div>
 
         <p className="text-zinc-500 text-sm">
-          &copy; {new Date().getFullYear()} Designer. All rights reserved.
+          &copy; {new Date().getFullYear()} Nicolas Arigon. All rights reserved.
         </p>
       </div>
     </footer>

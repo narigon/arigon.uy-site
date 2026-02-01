@@ -3,23 +3,23 @@ import { Layout, Code, Smartphone, Globe } from 'lucide-react';
 
 const services = [
   {
-    title: 'UI/UX Design',
-    description: 'Creating intuitive and engaging digital interfaces.',
+    title: 'Engineering Leadership',
+    description: 'Strategic initiatives and high-performance teams.',
     icon: <Layout className="w-8 h-8 text-accent" />,
   },
   {
-    title: 'Web Development',
-    description: 'Building fast and responsive websites with modern tools.',
+    title: 'Cloud & DevOps',
+    description: 'Scalable web solutions and advanced cloud systems.',
     icon: <Globe className="w-8 h-8 text-accent" />,
   },
   {
-    title: 'App Development',
-    description: 'Developing high-quality mobile applications.',
+    title: 'Security & Compliance',
+    description: 'VAPT, NIST, HIPAA, and GDPR standards.',
     icon: <Smartphone className="w-8 h-8 text-accent" />,
   },
   {
-    title: 'Code Review',
-    description: 'Ensuring your codebase is clean, efficient, and scalable.',
+    title: 'AI & ML Experimentation',
+    description: 'RAG, AI agents, and LLM implementation.',
     icon: <Code className="w-8 h-8 text-accent" />,
   },
 ];
